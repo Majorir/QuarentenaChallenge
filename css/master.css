@@ -31,7 +31,7 @@ body{
 
 .menu li:hover{
   color: #ffc825;
-  border-bottom: 2px solid #ffc825;
+  border-bottom: 2px solid #ffc825; 
 }
 
 nav{
