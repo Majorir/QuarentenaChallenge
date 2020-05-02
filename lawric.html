@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="icon" href="imgs/logo/icon.png">
+<head>
+  <meta charset="utf-8">
+  <title>Quarentena Challenge</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="css/light.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/8c6e93330c.js"></script>
+</head>
+<body>
+
+  <header>
+    <article class="container">
+      <section id="logo"></section>
+      <nav class="menu">
+        <div id="mobile">
+          <i class="fas fa-bars"></i>
+        </div>
+        <script type="text/javascript">
+        $('#mobile').on('click', function(){
+          $('ul').toggle();
+        })
+        </script>
+        <ul>
+          <a href="index.html"><li>Inicio</li></a>
+        </ul>
+      </nav>
+      <a href="index.html"><img src="imgs/logo/logo2.png" id="logo"></a>
+      <button onclick="topFunction()" id="topbt" title="Inicio">Inicio</button>
+    </article>
+  </header>
+
+  <section class="participantes">
+    <div class="Sobre">
+      Quarentena Challenge Evento criado para motivar artistas de desenho tradicional,
+      digital e principalmente pixel art.<br>
+      O evento consiste em criar uma arte por dia durante o mês de abril, sem pular ou entregar em data diferente.<br>
+      Neste site você pode conferir os resultados e a evolução dos artistas que sobreviveram aos 30 dias.
+    </div>
+  </section>
+
+  <section class="testeModal">
+    <div id="btncontainer">
+      <a href="index.html"><button class="btn">AsulDev</button></a>
+      <a href="bruno.html"><button class="btn">BrunoChaos</button></a>
+      <a href="danigod.html"><button class="btn">DaniGod</button></a>
+      <a href="euli.html"><button class="btn">EuliDraws</button></a>
+      <a href="gauss.html"><button class="btn">Gauss</button></a>
+      <a href="jenny.html"><button class="btn">JennyTwT</button></a>
+      <a href="lawric.html"><button class="btn">Lawric</button></a>
+      <a href="lima.html"><button class="btn">Lima</button></a>
+      <a href="majorir.html"><button class="btn">Majorir</button></a>
+      <a href="nicke.html"><button class="btn">NickeLogan</button></a>
+      <a href="nightblade.html"><button class="btn">NightBlade</button></a>
+      <a href="ninja.html"><button class="btn">Ninja</button></a>
+      <a href="nuts.html"><button class="btn">Nuts</button></a>
+      <a href="Prestes.html"><button class="btn">PrestesDraw</button></a>
+      <a href="rmk.html"><button class="btn">Reimonkey</button></a>
+      <a href="tago.html"><button class="btn">T4go</button></a>
+    </div>
+  </section>
+
+  <!-- Images used to open the lightbox -->
+  <div class="row">
+    <div class="column">
+      <img src="imgs/pixelart/Lawric01.png" style="width:50%" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="imgs/pixelart/Lawric02.png" style="width:50%" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="imgs/pixelart/Lawric03.png" style="width:50%" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="imgs/pixelart/Lawric30.png" style="width:50%" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+  </div>
+
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+      <div class="mySlides">
+        <div class="numbertext">1 / 30</div>
+        <img src="imgs/pixelart/Lawric01.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">2 / 30</div>
+        <img src="imgs/pixelart/Lawric02.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">3 / 30</div>
+        <img src="imgs/pixelart/Lawric03.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">4 / 30</div>
+        <img src="imgs/pixelart/Lawric04.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">5 / 30</div>
+        <img src="imgs/pixelart/Lawric05.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">6 / 30</div>
+        <img src="imgs/pixelart/Lawric06.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">7 / 30</div>
+        <img src="imgs/pixelart/Lawric07.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">8 / 30</div>
+        <img src="imgs/pixelart/Lawric08.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">9 / 30</div>
+        <img src="imgs/pixelart/Lawric09.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">10 / 30</div>
+        <img src="imgs/pixelart/Lawric10.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">11 / 30</div>
+        <img src="imgs/pixelart/Lawric11.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">12 / 30</div>
+        <img src="imgs/pixelart/Lawric12.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">13 / 30</div>
+        <img src="imgs/pixelart/Lawric13.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">14 / 30</div>
+        <img src="imgs/pixelart/Lawric14.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">15 / 30</div>
+        <img src="imgs/pixelart/Lawric15.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">16 / 30</div>
+        <img src="imgs/pixelart/Lawric16.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">17 / 30</div>
+        <img src="imgs/pixelart/Lawric17.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">18 / 30</div>
+        <img src="imgs/pixelart/Lawric18.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">19 / 30</div>
+        <img src="imgs/pixelart/Lawric19.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">20 / 30</div>
+        <img src="imgs/pixelart/Lawric20.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">21 / 30</div>
+        <img src="imgs/pixelart/Lawric21.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">22 / 30</div>
+        <img src="imgs/pixelart/Lawric22.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">23 / 30</div>
+        <img src="imgs/pixelart/Lawric23.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">24 / 30</div>
+        <img src="imgs/pixelart/Lawric24.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">25 / 30</div>
+        <img src="imgs/pixelart/Lawric25.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">26 / 30</div>
+        <img src="imgs/pixelart/Lawric26.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">27 / 30</div>
+        <img src="imgs/pixelart/Lawric27.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">28 / 30</div>
+        <img src="imgs/pixelart/Lawric28.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">29 / 30</div>
+        <img src="imgs/pixelart/Lawric29.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">30 / 30</div>
+        <img src="imgs/pixelart/Lawric30.png" style="width:100%">
+      </div>
+
+
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail image controls -->
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric01.png" style="width:50%" onclick="currentSlide(1)" alt="Tema: Favela">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric02.png" style="width:50%" onclick="currentSlide(2)" alt="Tema: Assassino">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric03.png" style="width:50%" onclick="currentSlide(3)" alt="Tema: Animal de Estimação">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric04.png" style="width:50%" onclick="currentSlide(4)" alt="Tema: Policial">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric05.png" style="width:50%" onclick="currentSlide(5)" alt="Tema: Outono">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric06.png" style="width:50%" onclick="currentSlide(6)" alt="Tema: Anjo">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric07.png" style="width:50%" onclick="currentSlide(7)" alt="Tema: Games">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric08.png" style="width:50%" onclick="currentSlide(8)" alt="Tema: Doces">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric09.png" style="width:50%" onclick="currentSlide(9)" alt="Tema: Praia">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric10.png" style="width:50%" onclick="currentSlide(10)" alt="Tema: Café">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric11.png" style="width:50%" onclick="currentSlide(11)" alt="Tema: Samurai">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric12.png" style="width:50%" onclick="currentSlide(12)" alt="Tema: Demônio">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric13.png" style="width:50%" onclick="currentSlide(13)" alt="Tema: Apocalipse">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric14.png" style="width:50%" onclick="currentSlide(14)" alt="Tema: Final Fantasy">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric15.png" style="width:50%" onclick="currentSlide(15)" alt="Tema: Dungeon">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric16.png" style="width:50%" onclick="currentSlide(16)" alt="Tema: Mecha">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric17.png" style="width:50%" onclick="currentSlide(17)" alt="Tema: Série">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric18.png" style="width:50%" onclick="currentSlide(18)" alt="Tema: Sci-fi">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric19.png" style="width:50%" onclick="currentSlide(19)" alt="Tema: Evolução">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric20.png" style="width:50%" onclick="currentSlide(20)" alt="Tema: Quimera">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric21.png" style="width:50%" onclick="currentSlide(21)" alt="Tema: Pesadelo">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric22.png" style="width:50%" onclick="currentSlide(22)" alt="Tema: Golem">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric23.png" style="width:50%" onclick="currentSlide(23)" alt="Tema: Halloween">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric24.png" style="width:50%" onclick="currentSlide(24)" alt="Tema: Vampiro">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric25.png" style="width:50%" onclick="currentSlide(25)" alt="Tema: Esporte">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric26.png" style="width:50%" onclick="currentSlide(26)" alt="Tema: Leveling Up">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric27.png" style="width:50%" onclick="currentSlide(27)" alt="Tema: Dragão">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric28.png" style="width:50%" onclick="currentSlide(28)" alt="Tema: Mangá">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric29.png" style="width:50%" onclick="currentSlide(29)" alt="Tema: AutoRetrato">
+      </div>
+      <div class="column">
+        <img class="demo" src="imgs/pixelart/Lawric30.png" style="width:50%" onclick="currentSlide(30)" alt="Tema: DBR Games">
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+  <footer>Quarentena Challenge © 2020</footer>
+
+</body>
+</html>
+
+<!-- TopButton -->
+
+<script type="text/javascript">
+topbt = document.getElementById("topbt");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    topbt.style.display = "block";
+  } else {
+    topbt.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<!-- LightBoxModal -->
+
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>

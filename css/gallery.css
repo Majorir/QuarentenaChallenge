@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+/* .main {
+  max-width: 1000px;
+  margin: auto;
+} */
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: #fff;
+  padding: 5px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.content img{
+  width: 400px;
+}
+
+.show {
+  display: inline-block;
+}
+
+.btn {
+  width: 120px;
+  border: none;
+  outline: none;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.0);
+  cursor: pointer;
+  background-image: url('../imgs/dogtag.png');
+  background-size: cover;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+.btn.active {
+  background-color: #000;
+   color: #fff;
+}

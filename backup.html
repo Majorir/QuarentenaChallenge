@@ -1,0 +1,2463 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Quarentena Challenge</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/gallery01.css">
+  <link rel="stylesheet" href="css/light.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/8c6e93330c.js"></script>
+</head>
+<body>
+
+  <header>
+    <article class="container">
+      <section id="logo"></section>
+      <nav class="menu">
+        <div id="mobile">
+          <i class="fas fa-bars"></i>
+        </div>
+        <script type="text/javascript">
+        $('#mobile').on('click', function(){
+          $('ul').toggle();
+        })
+        </script>
+        <ul>
+          <a href="#"><li>Inicio</li></a>
+          <a href="#comunidade.html"><li>Comunidade</li></a>
+        </ul>
+      </nav>
+      <img src="imgs/logo/logo1.png" id="logo">
+      <button onclick="topFunction()" id="topbt" title="Inicio">Inicio</button>
+    </article>
+  </header>
+
+  <section class="participantes">
+
+    <div class="Sobre">
+      Quarentena Challenge Evento criado para motivar artistas de desenho tradicional,
+      digital e principalmente pixel art.<br>
+      O evento consiste em criar uma arte por dia durante o mês de abril, sem pular ou entregar em data diferente.<br>
+      Neste site você pode conferir os resultados e a evolução dos artistas que sobreviveram aos 30 dias.
+    </div>
+
+  </section>
+
+  <!--
+
+-->
+
+<section class="galeriamista">
+
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')">Mostrar Tudo</button>
+    <button class="btn" onclick="filterSelection('Asul')">AsulDev</button>
+    <button class="btn" onclick="filterSelection('DaniGod')">DaniGod</button>
+    <button class="btn" onclick="filterSelection('Gauss')">Gauss</button>
+    <button class="btn" onclick="filterSelection('Jenny')">Jenny</button>
+    <button class="btn" onclick="filterSelection('Lawric')">Lawric</button>
+    <button class="btn" onclick="filterSelection('Lima')">Lima</button>
+    <button class="btn" onclick="filterSelection('Majorir')">Majorir</button>
+    <button class="btn" onclick="filterSelection('Nicke')">NickeLogan</button>
+    <button class="btn" onclick="filterSelection('Nightblade')">NightBlade</button>
+    <button class="btn" onclick="filterSelection('Ninja')">Ninja</button>
+    <button class="btn" onclick="filterSelection('Nuts')">Nuts</button>
+    <button class="btn" onclick="filterSelection('Prestes')">Prestes</button>
+    <button class="btn" onclick="filterSelection('rmk')">ReiMonkey</button>
+    <button class="btn" onclick="filterSelection('Tago')">T4go</button>
+
+  </div>
+
+  <div class="row">
+
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul07.png" alt="Asul" style="">
+        <h3>Tema: Games</h3><h4>Dia 07</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul08.png" alt="Asul" style="">
+        <h3>Tema: Doces</h3><h4>Dia 08</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul09.png" alt="Asul" style="">
+        <h3>Tema: Praia</h3><h4>Dia 09</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul10.png" alt="Asul" style="">
+        <h3>Tema: Café</h3><h4>Dia 10</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul11.png" alt="Asul" style="">
+        <h3>Tema: Samurai</h3><h4>Dia 11</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul12.png" alt="Asul" style="">
+        <h3>Tema: Demônio</h3><h4>Dia 12</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul13.png" alt="Asul" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul14.png" alt="Asul" style="">
+        <h3>Tema: Final Fantasy</h3><h4>Dia 14</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul15.png" alt="Asul" style="">
+        <h3>Tema: Dungeon</h3><h4>Dia 15</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul16.png" alt="Asul" style="">
+        <h3>Tema: Mecha</h3><h4>Dia 16</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul17.png" alt="Asul" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul18.png" alt="Asul" style="">
+        <h3>Tema: Sci-Fi</h3><h4>Dia 18</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul19.png" alt="Asul" style="">
+        <h3>Tema: Evolução</h3><h4>Dia 19</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul20.png" alt="Asul" style="">
+        <h3>Tema: Quimera</h3><h4>Dia 20</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul21.png" alt="Asul" style="">
+        <h3>Tema: Pesadelo</h3><h4>Dia 21</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul22.png" alt="Asul" style="">
+        <h3>Tema: Golem</h3><h4>Dia 22</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul23.png" alt="Asul" style="">
+        <h3>Tema: Halloween</h3><h4>Dia 23</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul24.png" alt="Asul" style="">
+        <h3>Tema: Vampiro</h3><h4>Dia 24</h4>
+      </div>
+    </div>
+    <div class="column Asul">
+      <div class="content">
+        <img src="imgs/pixelart/Asul29.png" alt="Asul" style="">
+        <h3>Tema: AutoRetrato</h3><h4>Dia 29</h4>
+      </div>
+    </div>
+
+
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos01.png" alt="Bruno" style="">
+        <h3>Tema: Favela</h3><h4>Dia 01</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos02.png" alt="Bruno" style="">
+        <h3>Tema: Assassino</h3><h4>Dia 02</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos03.png" alt="Bruno" style="">
+        <h3>Tema: Animal de Estimação</h3><h4>Dia 03</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos04.png" alt="Bruno" style="">
+        <h3>Tema: Policial</h3><h4>Dia 04</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos05.png" alt="Bruno" style="">
+        <h3>Tema: Outono</h3><h4>Dia 05</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos06.png" alt="Bruno" style="">
+        <h3>Tema: Anjo</h3><h4>Dia 06</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos07.png" alt="Asul" style="">
+        <h3>Tema: Games</h3><h4>Dia 07</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos08.png" alt="Bruno" style="">
+        <h3>Tema: Doces</h3><h4>Dia 08</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos09.png" alt="Bruno" style="">
+        <h3>Tema: Praia</h3><h4>Dia 09</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos10.png" alt="Bruno" style="">
+        <h3>Tema: Café</h3><h4>Dia 10</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos11.png" alt="Bruno" style="">
+        <h3>Tema: Samurai</h3><h4>Dia 11</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos12.gif" alt="Bruno" style="">
+        <h3>Tema: Demônio</h3><h4>Dia 12</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos13.png" alt="Bruno" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos14.gif" alt="Bruno" style="">
+        <h3>Tema: Final Fantasy</h3><h4>Dia 14</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos15.png" alt="Bruno" style="">
+        <h3>Tema: Dungeon</h3><h4>Dia 15</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos16.png" alt="Bruno" style="">
+        <h3>Tema: Mecha</h3><h4>Dia 16</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos17.png" alt="Bruno" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos18.png" alt="Bruno" style="">
+        <h3>Tema: Sci-Fi</h3><h4>Dia 18</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos20.png" alt="Bruno" style="">
+        <h3>Tema: Quimera</h3><h4>Dia 20</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos21.png" alt="Bruno" style="">
+        <h3>Tema: Pesadelo</h3><h4>Dia 21</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos22.png" alt="Bruno" style="">
+        <h3>Tema: Golem</h3><h4>Dia 22</h4>
+      </div>
+    </div>
+    <div class="column Bruno">
+      <div class="content">
+        <img src="imgs/pixelart/BrunoChaos23.png" alt="Bruno" style="">
+        <h3>Tema: Halloween</h3><h4>Dia 23</h4>
+      </div>
+    </div>
+
+    <!-- DaniGod -->
+
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod01.png" alt="DaniGod" style="">
+        <h3>Tema: Favela</h3><h4>Dia 01</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod02.png" alt="DaniGod" style="">
+        <h3>Tema: Assassino</h3><h4>Dia 02</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod03.png" alt="DaniGod" style="">
+        <h3>Tema: Animal de Estimação</h3><h4>Dia 03</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod04.png" alt="DaniGod" style="">
+        <h3>Tema: Policial</h3><h4>Dia 04</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod05.png" alt="DaniGod" style="">
+        <h3>Tema: Outono</h3><h4>Dia 05</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod06.png" alt="DaniGod" style="">
+        <h3>Tema: Anjo</h3><h4>Dia 06</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod07.png" alt="Asul" style="">
+        <h3>Tema: Games</h3><h4>Dia 07</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod08.png" alt="DaniGod" style="">
+        <h3>Tema: Doces</h3><h4>Dia 08</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod09.png" alt="DaniGod" style="">
+        <h3>Tema: Praia</h3><h4>Dia 09</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod10.png" alt="DaniGod" style="">
+        <h3>Tema: Café</h3><h4>Dia 10</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod11.png" alt="DaniGod" style="">
+        <h3>Tema: Samurai</h3><h4>Dia 11</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod12.png" alt="DaniGod" style="">
+        <h3>Tema: Demônio</h3><h4>Dia 12</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod13.png" alt="DaniGod" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod14.png" alt="DaniGod" style="">
+        <h3>Tema: Final Fantasy</h3><h4>Dia 14</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod15.png" alt="DaniGod" style="">
+        <h3>Tema: Dungeon</h3><h4>Dia 15</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod16.png" alt="DaniGod" style="">
+        <h3>Tema: Mecha</h3><h4>Dia 16</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod17.png" alt="DaniGod" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod19.gif" alt="DaniGod" style="">
+        <h3>Tema: Evolução</h3><h4>Dia 19</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod20.png" alt="DaniGod" style="">
+        <h3>Tema: Quimera</h3><h4>Dia 20</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod21.png" alt="DaniGod" style="">
+        <h3>Tema: Pesadelo</h3><h4>Dia 21</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod22.png" alt="DaniGod" style="">
+        <h3>Tema: Golem</h3><h4>Dia 22</h4>
+      </div>
+    </div>
+    <div class="column DaniGod">
+      <div class="content">
+        <img src="imgs/pixelart/DaniGod23.png" alt="DaniGod" style="">
+        <h3>Tema: Halloween</h3><h4>Dia 23</h4>
+      </div>
+    </div>
+
+    <!-- Gauss -->
+
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss01.png" alt="Gauss" style="">
+        <h3>Tema: Favela</h3><h4>Dia 01</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss02.png" alt="Gauss" style="">
+        <h3>Tema: Assassino</h3><h4>Dia 02</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss03.png" alt="Gauss" style="">
+        <h3>Tema: Animal de Estimação</h3><h4>Dia 03</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss04.png" alt="Gauss" style="">
+        <h3>Tema: Policial</h3><h4>Dia 04</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss05.png" alt="Gauss" style="">
+        <h3>Tema: Outono</h3><h4>Dia 05</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss06.png" alt="Gauss" style="">
+        <h3>Tema: Anjo</h3><h4>Dia 06</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss07.png" alt="Asul" style="">
+        <h3>Tema: Games</h3><h4>Dia 07</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss08.png" alt="Gauss" style="">
+        <h3>Tema: Doces</h3><h4>Dia 08</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss09.png" alt="Gauss" style="">
+        <h3>Tema: Praia</h3><h4>Dia 09</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss10.png" alt="Gauss" style="">
+        <h3>Tema: Café</h3><h4>Dia 10</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss11.png" alt="Gauss" style="">
+        <h3>Tema: Samurai</h3><h4>Dia 11</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss12.png" alt="Gauss" style="">
+        <h3>Tema: Demônio</h3><h4>Dia 12</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss13.png" alt="Gauss" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss14.png" alt="Gauss" style="">
+        <h3>Tema: Final Fantasy</h3><h4>Dia 14</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss15.png" alt="Gauss" style="">
+        <h3>Tema: Dungeon</h3><h4>Dia 15</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss16.png" alt="Gauss" style="">
+        <h3>Tema: Mecha</h3><h4>Dia 16</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss17.png" alt="Gauss" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss18.png" alt="Gauss" style="">
+        <h3>Tema: Sci-Fi</h3><h4>Dia 18</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss19.png" alt="Gauss" style="">
+        <h3>Tema: Evolução</h3><h4>Dia 19</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss20.png" alt="Gauss" style="">
+        <h3>Tema: Quimera</h3><h4>Dia 20</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss21.png" alt="Gauss" style="">
+        <h3>Tema: Pesadelo</h3><h4>Dia 21</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss22.png" alt="Gauss" style="">
+        <h3>Tema: Golem</h3><h4>Dia 22</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss23.png" alt="Gauss" style="">
+        <h3>Tema: Halloween</h3><h4>Dia 23</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss24.png" alt="Gauss" style="">
+        <h3>Tema: Vampiro</h3><h4>Dia 24</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss25.png" alt="Gauss" style="">
+        <h3>Tema: Esporte</h3><h4>Dia 25</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss26.png" alt="Gauss" style="">
+        <h3>Tema: Leveling Up</h3><h4>Dia 26</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss27.png" alt="Gauss" style="">
+        <h3>Tema: Dragão</h3><h4>Dia 27</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss28.png" alt="Gauss" style="">
+        <h3>Tema: Mangá</h3><h4>Dia 28</h4>
+      </div>
+    </div>
+    <div class="column Gauss">
+      <div class="content">
+        <img src="imgs/pixelart/Gauss29.png" alt="Gauss" style="">
+        <h3>Tema: AutoRetrato</h3><h4>Dia 29</h4>
+      </div>
+    </div>
+
+    <!-- Jenny -->
+
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny01.png" alt="Jenny" style="">
+        <h3>Tema: Favela</h3><h4>Dia 01</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny02.png" alt="Jenny" style="">
+        <h3>Tema: Assassino</h3><h4>Dia 02</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny03.png" alt="Jenny" style="">
+        <h3>Tema: Animal de Estimação</h3><h4>Dia 03</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny04.png" alt="Jenny" style="">
+        <h3>Tema: Policial</h3><h4>Dia 04</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny05.png" alt="Jenny" style="">
+        <h3>Tema: Outono</h3><h4>Dia 05</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny06.png" alt="Jenny" style="">
+        <h3>Tema: Anjo</h3><h4>Dia 06</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny07.png" alt="Asul" style="">
+        <h3>Tema: Games</h3><h4>Dia 07</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny08.png" alt="Jenny" style="">
+        <h3>Tema: Doces</h3><h4>Dia 08</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny09.png" alt="Jenny" style="">
+        <h3>Tema: Praia</h3><h4>Dia 09</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny10.png" alt="Jenny" style="">
+        <h3>Tema: Café</h3><h4>Dia 10</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny11.png" alt="Jenny" style="">
+        <h3>Tema: Samurai</h3><h4>Dia 11</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny12.png" alt="Jenny" style="">
+        <h3>Tema: Demônio</h3><h4>Dia 12</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny13.png" alt="Jenny" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny14.png" alt="Jenny" style="">
+        <h3>Tema: Final Fantasy</h3><h4>Dia 14</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny15.png" alt="Jenny" style="">
+        <h3>Tema: Dungeon</h3><h4>Dia 15</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny16.png" alt="Jenny" style="">
+        <h3>Tema: Mecha</h3><h4>Dia 16</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny17.png" alt="Jenny" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny18.png" alt="Jenny" style="">
+        <h3>Tema: Sci-Fi</h3><h4>Dia 18</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny19.gif" alt="Jenny" style="">
+        <h3>Tema: Evolução</h3><h4>Dia 19</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny20.png" alt="Jenny" style="">
+        <h3>Tema: Quimera</h3><h4>Dia 20</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny21.png" alt="Jenny" style="">
+        <h3>Tema: Pesadelo</h3><h4>Dia 21</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny22.png" alt="Jenny" style="">
+        <h3>Tema: Golem</h3><h4>Dia 22</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny23.png" alt="Jenny" style="">
+        <h3>Tema: Halloween</h3><h4>Dia 23</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny24.png" alt="Jenny" style="">
+        <h3>Tema: Vampiro</h3><h4>Dia 24</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny25.png" alt="Jenny" style="">
+        <h3>Tema: Esporte</h3><h4>Dia 25</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny26.png" alt="Jenny" style="">
+        <h3>Tema: Leveling Up</h3><h4>Dia 26</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny27.png" alt="Jenny" style="">
+        <h3>Tema: Dragão</h3><h4>Dia 27</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny28.png" alt="Jenny" style="">
+        <h3>Tema: Mangá</h3><h4>Dia 28</h4>
+      </div>
+    </div>
+    <div class="column Jenny">
+      <div class="content">
+        <img src="imgs/pixelart/Jenny29.png" alt="Jenny" style="">
+        <h3>Tema: AutoRetrato</h3><h4>Dia 29</h4>
+      </div>
+    </div>
+
+    <!-- Lawric -->
+
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric01.png" alt="Lawric" style="">
+        <h3>Tema: Favela</h3><h4>Dia 01</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric02.png" alt="Lawric" style="">
+        <h3>Tema: Assassino</h3><h4>Dia 02</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric03.png" alt="Lawric" style="">
+        <h3>Tema: Animal de Estimação</h3><h4>Dia 03</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric04.png" alt="Lawric" style="">
+        <h3>Tema: Policial</h3><h4>Dia 04</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric05.png" alt="Lawric" style="">
+        <h3>Tema: Outono</h3><h4>Dia 05</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric06.png" alt="Lawric" style="">
+        <h3>Tema: Anjo</h3><h4>Dia 06</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric07.png" alt="Asul" style="">
+        <h3>Tema: Games</h3><h4>Dia 07</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric08.png" alt="Lawric" style="">
+        <h3>Tema: Doces</h3><h4>Dia 08</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric09.png" alt="Lawric" style="">
+        <h3>Tema: Praia</h3><h4>Dia 09</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric10.png" alt="Lawric" style="">
+        <h3>Tema: Café</h3><h4>Dia 10</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric11.png" alt="Lawric" style="">
+        <h3>Tema: Samurai</h3><h4>Dia 11</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric12.png" alt="Lawric" style="">
+        <h3>Tema: Demônio</h3><h4>Dia 12</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric13.png" alt="Lawric" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric14.png" alt="Lawric" style="">
+        <h3>Tema: Final Fantasy</h3><h4>Dia 14</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric15.png" alt="Lawric" style="">
+        <h3>Tema: Dungeon</h3><h4>Dia 15</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric16.png" alt="Lawric" style="">
+        <h3>Tema: Mecha</h3><h4>Dia 16</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric17.png" alt="Lawric" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric18.png" alt="Lawric" style="">
+        <h3>Tema: Sci-Fi</h3><h4>Dia 18</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric19.png" alt="Lawric" style="">
+        <h3>Tema: Evolução</h3><h4>Dia 19</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric20.png" alt="Lawric" style="">
+        <h3>Tema: Quimera</h3><h4>Dia 20</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric21.png" alt="Lawric" style="">
+        <h3>Tema: Pesadelo</h3><h4>Dia 21</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric22.png" alt="Lawric" style="">
+        <h3>Tema: Golem</h3><h4>Dia 22</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric23.png" alt="Lawric" style="">
+        <h3>Tema: Halloween</h3><h4>Dia 23</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric24.png" alt="Lawric" style="">
+        <h3>Tema: Vampiro</h3><h4>Dia 24</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric25.png" alt="Lawric" style="">
+        <h3>Tema: Esporte</h3><h4>Dia 25</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric26.png" alt="Lawric" style="">
+        <h3>Tema: Leveling Up</h3><h4>Dia 26</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric27.png" alt="Lawric" style="">
+        <h3>Tema: Dragão</h3><h4>Dia 27</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric28.png" alt="Lawric" style="">
+        <h3>Tema: Mangá</h3><h4>Dia 28</h4>
+      </div>
+    </div>
+    <div class="column Lawric">
+      <div class="content">
+        <img src="imgs/pixelart/Lawric29.png" alt="Lawric" style="">
+        <h3>Tema: AutoRetrato</h3><h4>Dia 29</h4>
+      </div>
+    </div>
+
+    <!-- Lima -->
+
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima01.png" alt="Lima" style="">
+        <h3>Tema: Favela</h3><h4>Dia 01</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima02.png" alt="Lima" style="">
+        <h3>Tema: Assassino</h3><h4>Dia 02</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima03.png" alt="Lima" style="">
+        <h3>Tema: Animal de Estimação</h3><h4>Dia 03</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima04.png" alt="Lima" style="">
+        <h3>Tema: Policial</h3><h4>Dia 04</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima05.png" alt="Lima" style="">
+        <h3>Tema: Outono</h3><h4>Dia 05</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima06.png" alt="Lima" style="">
+        <h3>Tema: Anjo</h3><h4>Dia 06</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima07.png" alt="Asul" style="">
+        <h3>Tema: Games</h3><h4>Dia 07</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima08.png" alt="Lima" style="">
+        <h3>Tema: Doces</h3><h4>Dia 08</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima09.png" alt="Lima" style="">
+        <h3>Tema: Praia</h3><h4>Dia 09</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima10.png" alt="Lima" style="">
+        <h3>Tema: Café</h3><h4>Dia 10</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima11.png" alt="Lima" style="">
+        <h3>Tema: Samurai</h3><h4>Dia 11</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima12.gif" alt="Lima" style="">
+        <h3>Tema: Demônio</h3><h4>Dia 12</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima13.png" alt="Lima" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima14.png" alt="Lima" style="">
+        <h3>Tema: Final Fantasy</h3><h4>Dia 14</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima15.png" alt="Lima" style="">
+        <h3>Tema: Dungeon</h3><h4>Dia 15</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima16.png" alt="Lima" style="">
+        <h3>Tema: Mecha</h3><h4>Dia 16</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima17.png" alt="Lima" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima18.png" alt="Lima" style="">
+        <h3>Tema: Sci-Fi</h3><h4>Dia 18</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima19.gif" alt="Lima" style="">
+        <h3>Tema: Evolução</h3><h4>Dia 19</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima20.png" alt="Lima" style="">
+        <h3>Tema: Quimera</h3><h4>Dia 20</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima21.png" alt="Lima" style="">
+        <h3>Tema: Pesadelo</h3><h4>Dia 21</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima22.png" alt="Lima" style="">
+        <h3>Tema: Golem</h3><h4>Dia 22</h4>
+      </div>
+    </div>
+    <div class="column Lima">
+      <div class="content">
+        <img src="imgs/pixelart/Lima23.png" alt="Lima" style="">
+        <h3>Tema: Halloween</h3><h4>Dia 23</h4>
+      </div>
+    </div>
+
+    <!-- Majorir -->
+
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir01.png" alt="Majorir" style="">
+        <h3>Tema: Favela</h3><h4>Dia 01</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir02.png" alt="Majorir" style="">
+        <h3>Tema: Assassino</h3><h4>Dia 02</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir03.png" alt="Majorir" style="">
+        <h3>Tema: Animal de Estimação</h3><h4>Dia 03</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir04.png" alt="Majorir" style="">
+        <h3>Tema: Policial</h3><h4>Dia 04</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir05.png" alt="Majorir" style="">
+        <h3>Tema: Outono</h3><h4>Dia 05</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir06.png" alt="Majorir" style="">
+        <h3>Tema: Anjo</h3><h4>Dia 06</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir07.png" alt="Asul" style="">
+        <h3>Tema: Games</h3><h4>Dia 07</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir08.png" alt="Majorir" style="">
+        <h3>Tema: Doces</h3><h4>Dia 08</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir09.png" alt="Majorir" style="">
+        <h3>Tema: Praia</h3><h4>Dia 09</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir10.png" alt="Majorir" style="">
+        <h3>Tema: Café</h3><h4>Dia 10</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir11.png" alt="Majorir" style="">
+        <h3>Tema: Samurai</h3><h4>Dia 11</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir12.png" alt="Majorir" style="">
+        <h3>Tema: Demônio</h3><h4>Dia 12</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir13.png" alt="Majorir" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir14.png" alt="Majorir" style="">
+        <h3>Tema: Final Fantasy</h3><h4>Dia 14</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir15.png" alt="Majorir" style="">
+        <h3>Tema: Dungeon</h3><h4>Dia 15</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir16.png" alt="Majorir" style="">
+        <h3>Tema: Mecha</h3><h4>Dia 16</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir17.png" alt="Majorir" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir18.png" alt="Majorir" style="">
+        <h3>Tema: Sci-Fi</h3><h4>Dia 18</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir19.gif" alt="Majorir" style="">
+        <h3>Tema: Evolução</h3><h4>Dia 19</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir20.png" alt="Majorir" style="">
+        <h3>Tema: Quimera</h3><h4>Dia 20</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir21.png" alt="Majorir" style="">
+        <h3>Tema: Pesadelo</h3><h4>Dia 21</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir22.png" alt="Majorir" style="">
+        <h3>Tema: Golem</h3><h4>Dia 22</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir23.png" alt="Majorir" style="">
+        <h3>Tema: Halloween</h3><h4>Dia 23</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir24.png" alt="Majorir" style="">
+        <h3>Tema: Vampiro</h3><h4>Dia 24</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir25.png" alt="Majorir" style="">
+        <h3>Tema: Esporte</h3><h4>Dia 25</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir26.png" alt="Majorir" style="">
+        <h3>Tema: Leveling Up</h3><h4>Dia 26</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir27.png" alt="Majorir" style="">
+        <h3>Tema: Dragão</h3><h4>Dia 27</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir28.png" alt="Majorir" style="">
+        <h3>Tema: Mangá</h3><h4>Dia 28</h4>
+      </div>
+    </div>
+    <div class="column Majorir">
+      <div class="content">
+        <img src="imgs/pixelart/Majorir29.png" alt="Majorir" style="">
+        <h3>Tema: AutoRetrato</h3><h4>Dia 29</h4>
+      </div>
+    </div>
+
+    <!-- Nicke -->
+
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke12.gif" alt="Nicke" style="">
+        <h3>Tema: Demônio</h3><h4>Dia 12</h4>
+      </div>
+    </div>
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke13.gif" alt="Nicke" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke14.gif" alt="Nicke" style="">
+        <h3>Tema: Final Fantasy</h3><h4>Dia 14</h4>
+      </div>
+    </div>
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke15.gif" alt="Nicke" style="">
+        <h3>Tema: Dungeon</h3><h4>Dia 15</h4>
+      </div>
+    </div>
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke16.png" alt="Nicke" style="">
+        <h3>Tema: Mecha</h3><h4>Dia 16</h4>
+      </div>
+    </div>
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke17.gif" alt="Nicke" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke18.gif" alt="Nicke" style="">
+        <h3>Tema: Sci-Fi</h3><h4>Dia 18</h4>
+      </div>
+    </div>
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke19.gif" alt="Nicke" style="">
+        <h3>Tema: Evolução</h3><h4>Dia 19</h4>
+      </div>
+    </div>
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke20.png" alt="Nicke" style="">
+        <h3>Tema: Quimera</h3><h4>Dia 20</h4>
+      </div>
+    </div>
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke21.png" alt="Nicke" style="">
+        <h3>Tema: Pesadelo</h3><h4>Dia 21</h4>
+      </div>
+    </div>
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke22.gif" alt="Nicke" style="">
+        <h3>Tema: Golem</h3><h4>Dia 22</h4>
+      </div>
+    </div>
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke23.png" alt="Nicke" style="">
+        <h3>Tema: Halloween</h3><h4>Dia 23</h4>
+      </div>
+    </div>
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke24.gif" alt="Nicke" style="">
+        <h3>Tema: Vampiro</h3><h4>Dia 24</h4>
+      </div>
+    </div>
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke25.png" alt="Nicke" style="">
+        <h3>Tema: Esporte</h3><h4>Dia 25</h4>
+      </div>
+    </div>
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke27.png" alt="Nicke" style="">
+        <h3>Tema: Dragão</h3><h4>Dia 27</h4>
+      </div>
+    </div>
+    <div class="column Nicke">
+      <div class="content">
+        <img src="imgs/pixelart/Nicke28.png" alt="Nicke" style="">
+        <h3>Tema: Mangá</h3><h4>Dia 28</h4>
+      </div>
+    </div>
+
+    <!-- Nightblade -->
+
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade03.png" alt="Nightblade" style="">
+        <h3>Tema: Animal de Estimação</h3><h4>Dia 03</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade04.png" alt="Nightblade" style="">
+        <h3>Tema: Policial</h3><h4>Dia 04</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade05.png" alt="Nightblade" style="">
+        <h3>Tema: Outono</h3><h4>Dia 05</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade06.png" alt="Nightblade" style="">
+        <h3>Tema: Anjo</h3><h4>Dia 06</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade07.png" alt="Asul" style="">
+        <h3>Tema: Games</h3><h4>Dia 07</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade08.png" alt="Nightblade" style="">
+        <h3>Tema: Doces</h3><h4>Dia 08</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade09.png" alt="Nightblade" style="">
+        <h3>Tema: Praia</h3><h4>Dia 09</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade10.png" alt="Nightblade" style="">
+        <h3>Tema: Café</h3><h4>Dia 10</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade11.png" alt="Nightblade" style="">
+        <h3>Tema: Samurai</h3><h4>Dia 11</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade12.png" alt="Nightblade" style="">
+        <h3>Tema: Demônio</h3><h4>Dia 12</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade13.png" alt="Nightblade" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade14.png" alt="Nightblade" style="">
+        <h3>Tema: Final Fantasy</h3><h4>Dia 14</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade15.gif" alt="Nightblade" style="">
+        <h3>Tema: Dungeon</h3><h4>Dia 15</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade16.png" alt="Nightblade" style="">
+        <h3>Tema: Mecha</h3><h4>Dia 16</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade17.png" alt="Nightblade" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade18.png" alt="Nightblade" style="">
+        <h3>Tema: Sci-Fi</h3><h4>Dia 18</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade19.png" alt="Nightblade" style="">
+        <h3>Tema: Evolução</h3><h4>Dia 19</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade20.png" alt="Nightblade" style="">
+        <h3>Tema: Quimera</h3><h4>Dia 20</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade21.png" alt="Nightblade" style="">
+        <h3>Tema: Pesadelo</h3><h4>Dia 21</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade22.png" alt="Nightblade" style="">
+        <h3>Tema: Golem</h3><h4>Dia 22</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade23.png" alt="Nightblade" style="">
+        <h3>Tema: Halloween</h3><h4>Dia 23</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade24.png" alt="Nightblade" style="">
+        <h3>Tema: Vampiro</h3><h4>Dia 24</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade25.png" alt="Nightblade" style="">
+        <h3>Tema: Esporte</h3><h4>Dia 25</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade26.gif" alt="Nightblade" style="">
+        <h3>Tema: Leveling Up</h3><h4>Dia 26</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade27.png" alt="Nightblade" style="">
+        <h3>Tema: Dragão</h3><h4>Dia 27</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade28.png" alt="Nightblade" style="">
+        <h3>Tema: Mangá</h3><h4>Dia 28</h4>
+      </div>
+    </div>
+    <div class="column Nightblade">
+      <div class="content">
+        <img src="imgs/pixelart/Nightblade29.png" alt="Nightblade" style="">
+        <h3>Tema: AutoRetrato</h3><h4>Dia 29</h4>
+      </div>
+    </div>
+
+    <!-- Ninja -->
+
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja01.png" alt="Ninja" style="">
+        <h3>Tema: Favela</h3><h4>Dia 01</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja02.png" alt="Ninja" style="">
+        <h3>Tema: Assassino</h3><h4>Dia 02</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja03.png" alt="Ninja" style="">
+        <h3>Tema: Animal de Estimação</h3><h4>Dia 03</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja04.png" alt="Ninja" style="">
+        <h3>Tema: Policial</h3><h4>Dia 04</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja05.png" alt="Ninja" style="">
+        <h3>Tema: Outono</h3><h4>Dia 05</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja06.png" alt="Ninja" style="">
+        <h3>Tema: Anjo</h3><h4>Dia 06</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja07.png" alt="Asul" style="">
+        <h3>Tema: Games</h3><h4>Dia 07</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja08.png" alt="Ninja" style="">
+        <h3>Tema: Doces</h3><h4>Dia 08</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja09.png" alt="Ninja" style="">
+        <h3>Tema: Praia</h3><h4>Dia 09</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja10.png" alt="Ninja" style="">
+        <h3>Tema: Café</h3><h4>Dia 10</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja11.png" alt="Ninja" style="">
+        <h3>Tema: Samurai</h3><h4>Dia 11</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja12.png" alt="Ninja" style="">
+        <h3>Tema: Demônio</h3><h4>Dia 12</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja13.png" alt="Ninja" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja14.png" alt="Ninja" style="">
+        <h3>Tema: Final Fantasy</h3><h4>Dia 14</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja15.png" alt="Ninja" style="">
+        <h3>Tema: Dungeon</h3><h4>Dia 15</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja16.png" alt="Ninja" style="">
+        <h3>Tema: Mecha</h3><h4>Dia 16</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja17.png" alt="Ninja" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja18.png" alt="Ninja" style="">
+        <h3>Tema: Sci-Fi</h3><h4>Dia 18</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja19.png" alt="Ninja" style="">
+        <h3>Tema: Evolução</h3><h4>Dia 19</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja20.png" alt="Ninja" style="">
+        <h3>Tema: Quimera</h3><h4>Dia 20</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja21.png" alt="Ninja" style="">
+        <h3>Tema: Pesadelo</h3><h4>Dia 21</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja22.png" alt="Ninja" style="">
+        <h3>Tema: Golem</h3><h4>Dia 22</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja23.png" alt="Ninja" style="">
+        <h3>Tema: Halloween</h3><h4>Dia 23</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja24.png" alt="Ninja" style="">
+        <h3>Tema: Vampiro</h3><h4>Dia 24</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja25.png" alt="Ninja" style="">
+        <h3>Tema: Esporte</h3><h4>Dia 25</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja26.png" alt="Ninja" style="">
+        <h3>Tema: Leveling Up</h3><h4>Dia 26</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja27.png" alt="Ninja" style="">
+        <h3>Tema: Dragão</h3><h4>Dia 27</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja28.png" alt="Ninja" style="">
+        <h3>Tema: Mangá</h3><h4>Dia 28</h4>
+      </div>
+    </div>
+    <div class="column Ninja">
+      <div class="content">
+        <img src="imgs/pixelart/Ninja29.png" alt="Ninja" style="">
+        <h3>Tema: AutoRetrato</h3><h4>Dia 29</h4>
+      </div>
+    </div>
+
+    <!-- Nuts -->
+
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts01.png" alt="Nuts" style="">
+        <h3>Tema: Favela</h3><h4>Dia 01</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts02.png" alt="Nuts" style="">
+        <h3>Tema: Assassino</h3><h4>Dia 02</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts03.png" alt="Nuts" style="">
+        <h3>Tema: Animal de Estimação</h3><h4>Dia 03</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts04.png" alt="Nuts" style="">
+        <h3>Tema: Policial</h3><h4>Dia 04</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts05.png" alt="Nuts" style="">
+        <h3>Tema: Outono</h3><h4>Dia 05</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts06.png" alt="Nuts" style="">
+        <h3>Tema: Anjo</h3><h4>Dia 06</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts07.png" alt="Asul" style="">
+        <h3>Tema: Games</h3><h4>Dia 07</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts08.png" alt="Nuts" style="">
+        <h3>Tema: Doces</h3><h4>Dia 08</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts09.png" alt="Nuts" style="">
+        <h3>Tema: Praia</h3><h4>Dia 09</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts10.png" alt="Nuts" style="">
+        <h3>Tema: Café</h3><h4>Dia 10</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts11.png" alt="Nuts" style="">
+        <h3>Tema: Samurai</h3><h4>Dia 11</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts12.png" alt="Nuts" style="">
+        <h3>Tema: Demônio</h3><h4>Dia 12</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts13.png" alt="Nuts" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts14.png" alt="Nuts" style="">
+        <h3>Tema: Final Fantasy</h3><h4>Dia 14</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts15.png" alt="Nuts" style="">
+        <h3>Tema: Dungeon</h3><h4>Dia 15</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts16.png" alt="Nuts" style="">
+        <h3>Tema: Mecha</h3><h4>Dia 16</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts17.png" alt="Nuts" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts18.png" alt="Nuts" style="">
+        <h3>Tema: Sci-Fi</h3><h4>Dia 18</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts19.png" alt="Nuts" style="">
+        <h3>Tema: Evolução</h3><h4>Dia 19</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts20.png" alt="Nuts" style="">
+        <h3>Tema: Quimera</h3><h4>Dia 20</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts21.png" alt="Nuts" style="">
+        <h3>Tema: Pesadelo</h3><h4>Dia 21</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts22.png" alt="Nuts" style="">
+        <h3>Tema: Golem</h3><h4>Dia 22</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts23.png" alt="Nuts" style="">
+        <h3>Tema: Halloween</h3><h4>Dia 23</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts24.png" alt="Nuts" style="">
+        <h3>Tema: Vampiro</h3><h4>Dia 24</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts25.png" alt="Nuts" style="">
+        <h3>Tema: Esporte</h3><h4>Dia 25</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts26.png" alt="Nuts" style="">
+        <h3>Tema: Leveling Up</h3><h4>Dia 26</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts27.png" alt="Nuts" style="">
+        <h3>Tema: Dragão</h3><h4>Dia 27</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts28.png" alt="Nuts" style="">
+        <h3>Tema: Mangá</h3><h4>Dia 28</h4>
+      </div>
+    </div>
+    <div class="column Nuts">
+      <div class="content">
+        <img src="imgs/pixelart/Nuts29.png" alt="Nuts" style="">
+        <h3>Tema: AutoRetrato</h3><h4>Dia 29</h4>
+      </div>
+    </div>
+
+    <!-- Prestes -->
+
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes01.png" alt="Prestes" style="">
+        <h3>Tema: Favela</h3><h4>Dia 01</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes02.png" alt="Prestes" style="">
+        <h3>Tema: Assassino</h3><h4>Dia 02</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes03.png" alt="Prestes" style="">
+        <h3>Tema: Animal de Estimação</h3><h4>Dia 03</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes04.png" alt="Prestes" style="">
+        <h3>Tema: Policial</h3><h4>Dia 04</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes05.png" alt="Prestes" style="">
+        <h3>Tema: Outono</h3><h4>Dia 05</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes06.png" alt="Prestes" style="">
+        <h3>Tema: Anjo</h3><h4>Dia 06</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes07.png" alt="Asul" style="">
+        <h3>Tema: Games</h3><h4>Dia 07</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes08.png" alt="Prestes" style="">
+        <h3>Tema: Doces</h3><h4>Dia 08</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes09.png" alt="Prestes" style="">
+        <h3>Tema: Praia</h3><h4>Dia 09</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes10.png" alt="Prestes" style="">
+        <h3>Tema: Café</h3><h4>Dia 10</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes11.png" alt="Prestes" style="">
+        <h3>Tema: Samurai</h3><h4>Dia 11</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes12.png" alt="Prestes" style="">
+        <h3>Tema: Demônio</h3><h4>Dia 12</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes13.png" alt="Prestes" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes14.png" alt="Prestes" style="">
+        <h3>Tema: Final Fantasy</h3><h4>Dia 14</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes15.png" alt="Prestes" style="">
+        <h3>Tema: Dungeon</h3><h4>Dia 15</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes16.png" alt="Prestes" style="">
+        <h3>Tema: Mecha</h3><h4>Dia 16</h4>
+      </div>
+    </div>
+    <div class="column Prestes">
+      <div class="content">
+        <img src="imgs/pixelart/Prestes17.png" alt="Prestes" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+
+    <!-- rmk -->
+
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk01.png" alt="rmk" style="">
+        <h3>Tema: Favela</h3><h4>Dia 01</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk02.png" alt="rmk" style="">
+        <h3>Tema: Assassino</h3><h4>Dia 02</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk03.png" alt="rmk" style="">
+        <h3>Tema: Animal de Estimação</h3><h4>Dia 03</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk04.png" alt="rmk" style="">
+        <h3>Tema: Policial</h3><h4>Dia 04</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk05.png" alt="rmk" style="">
+        <h3>Tema: Outono</h3><h4>Dia 05</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk06.png" alt="rmk" style="">
+        <h3>Tema: Anjo</h3><h4>Dia 06</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk07.png" alt="Asul" style="">
+        <h3>Tema: Games</h3><h4>Dia 07</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk08.png" alt="rmk" style="">
+        <h3>Tema: Doces</h3><h4>Dia 08</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk09.png" alt="rmk" style="">
+        <h3>Tema: Praia</h3><h4>Dia 09</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk10.png" alt="rmk" style="">
+        <h3>Tema: Café</h3><h4>Dia 10</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk11.png" alt="rmk" style="">
+        <h3>Tema: Samurai</h3><h4>Dia 11</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk12.png" alt="rmk" style="">
+        <h3>Tema: Demônio</h3><h4>Dia 12</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk13.png" alt="rmk" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk14.png" alt="rmk" style="">
+        <h3>Tema: Final Fantasy</h3><h4>Dia 14</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk15.png" alt="rmk" style="">
+        <h3>Tema: Dungeon</h3><h4>Dia 15</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk16.png" alt="rmk" style="">
+        <h3>Tema: Mecha</h3><h4>Dia 16</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk17.png" alt="rmk" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk18.png" alt="rmk" style="">
+        <h3>Tema: Sci-Fi</h3><h4>Dia 18</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk19.png" alt="rmk" style="">
+        <h3>Tema: Evolução</h3><h4>Dia 19</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk20.png" alt="rmk" style="">
+        <h3>Tema: Quimera</h3><h4>Dia 20</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk21.png" alt="rmk" style="">
+        <h3>Tema: Pesadelo</h3><h4>Dia 21</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk22.png" alt="rmk" style="">
+        <h3>Tema: Golem</h3><h4>Dia 22</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk23.png" alt="rmk" style="">
+        <h3>Tema: Halloween</h3><h4>Dia 23</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk24.png" alt="rmk" style="">
+        <h3>Tema: Vampiro</h3><h4>Dia 24</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk25.png" alt="rmk" style="">
+        <h3>Tema: Esporte</h3><h4>Dia 25</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk26.png" alt="rmk" style="">
+        <h3>Tema: Leveling Up</h3><h4>Dia 26</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk27.png" alt="rmk" style="">
+        <h3>Tema: Dragão</h3><h4>Dia 27</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk28.png" alt="rmk" style="">
+        <h3>Tema: Mangá</h3><h4>Dia 28</h4>
+      </div>
+    </div>
+    <div class="column rmk">
+      <div class="content">
+        <img src="imgs/pixelart/rmk29.png" alt="rmk" style="">
+        <h3>Tema: AutoRetrato</h3><h4>Dia 29</h4>
+      </div>
+    </div>
+
+    <!-- Tago -->
+
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago01.png" alt="Tago" style="">
+        <h3>Tema: Favela</h3><h4>Dia 01</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago02.png" alt="Tago" style="">
+        <h3>Tema: Assassino</h3><h4>Dia 02</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago03.png" alt="Tago" style="">
+        <h3>Tema: Animal de Estimação</h3><h4>Dia 03</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago04.png" alt="Tago" style="">
+        <h3>Tema: Policial</h3><h4>Dia 04</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago05.png" alt="Tago" style="">
+        <h3>Tema: Outono</h3><h4>Dia 05</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago06.png" alt="Tago" style="">
+        <h3>Tema: Anjo</h3><h4>Dia 06</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago07.png" alt="Asul" style="">
+        <h3>Tema: Games</h3><h4>Dia 07</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago08.png" alt="Tago" style="">
+        <h3>Tema: Doces</h3><h4>Dia 08</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago09.png" alt="Tago" style="">
+        <h3>Tema: Praia</h3><h4>Dia 09</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago10.png" alt="Tago" style="">
+        <h3>Tema: Café</h3><h4>Dia 10</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago11.png" alt="Tago" style="">
+        <h3>Tema: Samurai</h3><h4>Dia 11</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago12.png" alt="Tago" style="">
+        <h3>Tema: Demônio</h3><h4>Dia 12</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago13.png" alt="Tago" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago14.png" alt="Tago" style="">
+        <h3>Tema: Final Fantasy</h3><h4>Dia 14</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago15.gif" alt="Tago" style="">
+        <h3>Tema: Dungeon</h3><h4>Dia 15</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago16.png" alt="Tago" style="">
+        <h3>Tema: Mecha</h3><h4>Dia 16</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago17.png" alt="Tago" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago18.png" alt="Tago" style="">
+        <h3>Tema: Sci-Fi</h3><h4>Dia 18</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago19.png" alt="Tago" style="">
+        <h3>Tema: Evolução</h3><h4>Dia 19</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago20.png" alt="Tago" style="">
+        <h3>Tema: Quimera</h3><h4>Dia 20</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago21.png" alt="Tago" style="">
+        <h3>Tema: Pesadelo</h3><h4>Dia 21</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago22.png" alt="Tago" style="">
+        <h3>Tema: Golem</h3><h4>Dia 22</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago23.png" alt="Tago" style="">
+        <h3>Tema: Halloween</h3><h4>Dia 23</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago24.png" alt="Tago" style="">
+        <h3>Tema: Vampiro</h3><h4>Dia 24</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago25.png" alt="Tago" style="">
+        <h3>Tema: Esporte</h3><h4>Dia 25</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago26.png" alt="Tago" style="">
+        <h3>Tema: Leveling Up</h3><h4>Dia 26</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago27.png" alt="Tago" style="">
+        <h3>Tema: Dragão</h3><h4>Dia 27</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago28.png" alt="Tago" style="">
+        <h3>Tema: Mangá</h3><h4>Dia 28</h4>
+      </div>
+    </div>
+    <div class="column Tago">
+      <div class="content">
+        <img src="imgs/pixelart/Tago29.png" alt="Tago" style="">
+        <h3>Tema: AutoRetrato</h3><h4>Dia 29</h4>
+      </div>
+    </div>
+
+    <!-- Tonely -->
+
+    <div class="column Tonely">
+      <div class="content">
+        <img src="imgs/pixelart/Tonely11.png" alt="Tonely" style="">
+        <h3>Tema: Samurai</h3><h4>Dia 11</h4>
+      </div>
+    </div>
+    <div class="column Tonely">
+      <div class="content">
+        <img src="imgs/pixelart/Tonely13.png" alt="Tonely" style="">
+        <h3>Tema: Apocalipse</h3><h4>Dia 13</h4>
+      </div>
+    </div>
+    <div class="column Tonely">
+      <div class="content">
+        <img src="imgs/pixelart/Tonely17.png" alt="Tonely" style="">
+        <h3>Tema: Série</h3><h4>Dia 17</h4>
+      </div>
+    </div>
+    <div class="column Tonely">
+      <div class="content">
+        <img src="imgs/pixelart/Tonely22.png" alt="Tonely" style="">
+        <h3>Tema: Golem</h3><h4>Dia 22</h4>
+      </div>
+    </div>
+    <div class="column Tonely">
+      <div class="content">
+        <img src="imgs/pixelart/Tonely25.png" alt="Tonely" style="">
+        <h3>Tema: Esporte</h3><h4>Dia 25</h4>
+      </div>
+    </div>
+    <div class="column Tonely">
+      <div class="content">
+        <img src="imgs/pixelart/Tonely26.png" alt="Tonely" style="">
+        <h3>Tema: Leveling Up</h3><h4>Dia 26</h4>
+      </div>
+    </div>
+    <div class="column Tonely">
+      <div class="content">
+        <img src="imgs/pixelart/Tonely27.gif" alt="Tonely" style="">
+        <h3>Tema: Dragão</h3><h4>Dia 27</h4>
+      </div>
+    </div>
+    <div class="column Tonely">
+      <div class="content">
+        <img src="imgs/pixelart/Tonely29.jpg" alt="Tonely" style="">
+        <h3>Tema: AutoRetrato</h3><h4>Dia 29</h4>
+      </div>
+    </div>
+
+
+    <script src="js/gallery.js"></script>
+  </div>
+</section>
+
+<footer>Quarentena Challenge © 2020</footer>
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+topbt = document.getElementById("topbt");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    topbt.style.display = "block";
+  } else {
+    topbt.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
